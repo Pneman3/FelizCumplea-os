@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  background-color: #000;
+  background: url("Almacenamiento interno/HTML/Imagen/JPG/Inf.jpg") #000;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  background-color: #1e293b;
+  border: 1px solid #d4af37;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  overflow-y: auto;
+  margin: 20px 0;
+a}
+
+a{
+  color: darkturquoise;
+}
+
+h1 {
+  color: gold;
+  border: 2px solid transparent;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: aqua;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  border: 2px solid black;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+
+h3{
+  color: chartreuse;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  background-color: #0f172a;
+  padding: 10px;
+  border-radius: 6px;
+  border-left: 3px solid #d4af37;
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+  color: #cbd5e1;
+}
+
+/* FOTO 1: VERTICAL (Arriba junto a las preguntas) */
+.img {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.img img {
+  width: 120px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #d4af37;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* FORMULARIO RSVP */
+.rsvp-section {
+  background-color: #0f172a;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  text-align: center;
+  border: 1px solid #334155;
+}
+
+.rsvp-section h3 {
+  color: #d4af37;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.rsvp-section input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #475569;
+  border-radius: 6px;
+  background-color: #1e293b;
+  color: white;
+  box-sizing: border-box;
+  font-size: 0.9rem;
+}
+
+.btn-rsvp {
+  background: linear-gradient(135deg, #d4af37, #aa7c11);
+  color: #0f172a;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+/* MAIN Y MENSAJE */
+.main {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.VR {
+  color: #d4af37;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.company {
+  font-size: 0.9rem;
+  color: #38bdf8;
+  margin-bottom: 15px;
+}
+
+p {
+  color: #f8fafc;
+  background-color: rgba(15, 23, 42, 0.6);
+  padding: 15px;
+  border-radius: 8px;
+  font-style: italic;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  border: 1px dashed #475569;
+  margin-bottom: 15px;
+}
+
+/* FOTO 2: HORIZONTAL (En el centro) */
+.imag {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.imag img {
+  width: 105%;
+  height: 310px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #d4af37;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* LÍNEA DE TIEMPO Y SUS FOTOS */
+.linea-tiempo {
+  margin-top: 20px;
+  border-top: 1px solid #334155;
+  padding-top: 15px;
+}
+
+.titulo-timeline {
+  color: #d4af37;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.tarjeta-hito {
+  background-color: #0f172a;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  border: 1px solid #334155;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.tarjeta-hito img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.hito-info {
+  padding: 10px 15px;
+}
+
+.anio {
+  color: #d4af37;
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+
+.hito-info p {
+  margin: 4px 0 0 0;
+  font-size: 0.80rem;
+  color: #cbd5e1;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.75rem;
+  color: #94a3b8;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #334155;
+  margin: 15px 0;
+}
